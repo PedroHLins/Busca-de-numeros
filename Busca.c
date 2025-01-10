@@ -83,9 +83,7 @@ int main(void) {
 
     if(acert){
       printf("\n\nO numero %s apareceu %i vezes no intervalo entre [%i-%i]", nume, acert, ini, fin);
-    }
-
-    if(acert==0){
+    }else{
         printf("\n\nO numero nao se encontra no intervalo");
     }
   
